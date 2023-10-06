@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://vercel.com/jhaamankumar/stackoverflow/HK4JRkXBqeNgbBQZechFWvDLAbEa",
+  baseURL: "https://stackoverflow-indol.vercel.app/",
 });
 
 API.interceptors.request.use((req) => {
